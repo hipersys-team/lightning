@@ -1,0 +1,6 @@
+[submodule "rtl/utils/verilog-axis"]
+	path = rtl/utils/verilog-axis
+	url = git@github.com:zhizhenzhong/verilog-axis.git
+[submodule "rtl/utils/verilog-axi"]
+	path = rtl/utils/verilog-axi
+	url = git@github.com:zhizhenzhong/verilog-axi.git
