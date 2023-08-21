@@ -4,3 +4,6 @@
 [submodule "rtl/utils/verilog-axi"]
 	path = rtl/utils/verilog-axi
 	url = git@github.com:zhizhenzhong/verilog-axi.git
+[submodule "api/lightning_lib/qick"]
+	path = api/lightning_lib/qick
+	url = git@github.com:zhizhenzhong/qick.git
