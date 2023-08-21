@@ -1,0 +1,7 @@
+PETALINUX_VER=2022.2
+VALIDATE_HW_CHKSUM=1
+HDF_EXT=xsa
+HARDWARE_CHECKSUM=69efc480b3fae825df5e85c136936db9
+YOCTO_SDK=4ade5db6317c61f6cb657b7a919dfa25
+RFSCONFIG_CHKSUM=026f30da1c10b8757c32bb5536c7be4c
+HARDWARE_PATH=/home/dnicholes/Projects/lightning-dev-base/platform/ZCU111_petalinux/hardware/imp/top.xsa
