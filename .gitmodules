@@ -1,9 +1,12 @@
 [submodule "rtl/utils/verilog-axis"]
 	path = rtl/utils/verilog-axis
-	url = git@github.com:zhizhenzhong/verilog-axis.git
+	url = https://github.com/zhizhenzhong/verilog-axis.git
+	branch = master
 [submodule "rtl/utils/verilog-axi"]
 	path = rtl/utils/verilog-axi
-	url = git@github.com:zhizhenzhong/verilog-axi.git
+	url = https://github.com/zhizhenzhong/verilog-axi.git
+	branch = master
 [submodule "api/lightning_lib/qick"]
 	path = api/lightning_lib/qick
-	url = git@github.com:zhizhenzhong/qick.git
+	url = https://github.com/zhizhenzhong/qick.git
+	branch = master

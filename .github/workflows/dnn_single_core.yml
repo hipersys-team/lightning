@@ -1,12 +1,13 @@
 on:
   issue_comment:
     branches:
-      - master
+      - main
 
   push:
     paths:
       - 'rtl/*.v'
       - 'rtl/tb/*.py'
+      - '.github/*'
 
 jobs:
   build:
