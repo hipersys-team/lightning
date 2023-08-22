@@ -5,8 +5,7 @@ on:
 
   push:
     paths:
-      - 'rtl/*.v'
-      - 'rtl/tb/*.py'
+      - 'rtl/**'
       - '.github/workflows/*.yml'
 
 jobs:
