@@ -1,5 +1,8 @@
 # Lightning: A Reconfigurable Photonic-Electronic SmartNIC for Fast and Energy-Efficient Inference
 
+[![DOI:10.1145/3603269.3604821](http://img.shields.io/badge/DOI-10.1145/3603269.3604821-69B7DB.svg)](https://doi.org/10.1145/3603269.3604821)
+[![DNN build](https://github.com/hipersys-team/lightning/actions/workflows/dnn_single_core.yml/badge.svg)](https://github.com/hipersys-team/lightning/actions/workflows/dnn_single_core.yml)
+
 Welcome to the Lightning, a reconfigurable photonic-electronic neural network inference system integrated with the a 100 Gbps smartNIC.
 
 ## 1. Overview
@@ -29,16 +32,15 @@ git clone --recursive
 
 This part of artifact contains Lightning's RTL-based datapath design and implementation (Sections 4, 5, and 6 of the Lightning SIGCOMM paper). We also include an emulated photonic MAC core to build a cycle-accurate testbench using Verilator.
 
-|  Source Files      |  Description                                                                                               |
-|  -----             |  -----                                                                                                     |
-|  `rtl/compute/`    |  This folder contains the code of digital computational modules (e.g., adder tree, ReLU, exponential, etc).|
-|  `rtl/emulate/`    |  This folder contains the code of emulated photonic multiplier modules                                     |
-|  `rtl/glue_logics/`|  This folder contains the code of glue-logic modules for several DNNs                                      |
-|  `rtl/srom/`       |  This folder contains the code of SROM modules                                                             |
-|  `rtl/tb/`         |  This folder contains the code of Verilator-based testbench modules                                        |
-|  `rtl/utils/`      |  This folder contains the code of customized AXI-related modules and third-party AXI libraries             |
-|  `rtl/Makefile`    |  This folder contains the Makefile for running the Verilator-based testbench                               |
-|  `rtl/README.md`   |  This README file explains the dependencies and steps to run the RTL cycle-accurate testbench              |
+|  Source Files      |  Description                                                                                                             |
+|  -----             |  -----                                                                                                                   |
+|  `rtl/datapath/`   |  This folder contains the code of Lightning's datapath modules (packet I.O, memory controller, count-action logic, etc.) |
+|  `rtl/emulate/`    |  This folder contains the code of emulated photonic multiplier modules                                                   |
+|  `rtl/sram/`       |  This folder contains the code of SRAM modules                                                                           |
+|  `rtl/tb/`         |  This folder contains the code of Verilator-based testbench modules                                                      |
+|  `rtl/utils/`      |  This folder contains the code of customized AXI-related modules and third-party AXI libraries                           |
+|  `rtl/Makefile`    |  This folder contains the Makefile for running the Verilator-based testbench                                             |
+|  `rtl/README.md`   |  This README file explains the dependencies and steps to run the RTL cycle-accurate testbench                            |
 
 ### 2.2 FPGA firmware and library code for Lightning's Python API
 
