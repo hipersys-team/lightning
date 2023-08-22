@@ -7,7 +7,7 @@ on:
     paths:
       - 'rtl/*.v'
       - 'rtl/tb/*.py'
-      - '.github/*'
+      - '.github/workflows/*.yml'
 
 jobs:
   build:
