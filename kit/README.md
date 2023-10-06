@@ -5,7 +5,7 @@
 The Lightning developer kit contains the minimum-viable photonic devices to perform a single multiplication operation in the photonic domain. The current version of Lightning developer kit takes in two input signals (in analog voltages, represented by $A$ and $B$), and returns an output signal  (in analog voltages, represented by $R$). For each operation, $R=A*B$ is performed in photonic domain inside the Lightning developer kit. For more details, please refer to the Appendix of our [paper](https://doi.org/10.1145/3603269.3604821).
 
 <p align="center">
- <img src="graphics/devkitV2.png" alt="kit" width=70% height=auto>
+ <img src="../graphics/devkitV2.png" alt="kit" width=90% height=auto>
 </p>
 
 ## Shopping list
