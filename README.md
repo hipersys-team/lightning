@@ -3,7 +3,11 @@
 [![DOI:10.1145/3603269.3604821](http://img.shields.io/badge/DOI-10.1145/3603269.3604821-69B7DB.svg)](https://doi.org/10.1145/3603269.3604821)
 [![DNN build](https://github.com/hipersys-team/lightning/actions/workflows/dnn_single_core.yml/badge.svg)](https://github.com/hipersys-team/lightning/actions/workflows/dnn_single_core.yml)
 
-Welcome to the Lightning, a reconfigurable photonic-electronic neural network inference system integrated with the a 100 Gbps smartNIC.
+<p align="center">
+ <img src="graphics/logo.png" alt="Lightning logo" width=50% height=auto>
+</p>
+
+Welcome to the Lightning, the first reconfigurable photonic-electronic neural network inference system integrated with the a 100 Gbps smartNIC.
 
 ## 1. Overview
 
@@ -34,7 +38,7 @@ This part of artifact contains Lightning's RTL-based datapath design and impleme
 
 |  Source Files      |  Description                                                                                                             |
 |  -----             |  -----                                                                                                                   |
-|  `rtl/datapath/`   |  This folder contains the code of Lightning's datapath modules (packet I.O, memory controller, count-action logic, etc.) |
+|  `rtl/datapath/`   |  This folder contains the code of Lightning's datapath modules (packet I/O, memory controller, count-action logic, etc.) |
 |  `rtl/emulate/`    |  This folder contains the code of emulated photonic multiplier modules                                                   |
 |  `rtl/sram/`       |  This folder contains the code of SRAM modules                                                                           |
 |  `rtl/tb/`         |  This folder contains the code of Verilator-based testbench modules                                                      |
